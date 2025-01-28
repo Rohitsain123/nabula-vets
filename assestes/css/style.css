@@ -1,0 +1,198 @@
+* {
+    box-sizing: border-box;
+}
+
+.avantt {
+    font-family: "avantt-bold";
+}
+
+.roboto {
+    font-family: "Roboto Mono",
+        serif;
+}
+
+.containor {
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 0px 50px;
+}
+
+.containor-2 {
+    max-width: 1440px;
+    margin: 0px 0px;
+    padding: 0px 180px;
+}
+
+.trans-03 {
+    transition: all 0.3s ease-in-out;
+}
+
+.book-bg {
+    border-radius: 27.917px;
+    background: var(--Gradient-02, linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%));
+}
+
+.hero-bg {
+    background-image: url(../img/png/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.h-419 {
+    height: 419px;
+}
+
+
+/* color */
+.bg-494336 {
+    background-color: #494336;
+}
+
+.bg-fff {
+    background-color: #fff;
+}
+
+.bg-grey {
+    background: var(--Grey-2, rgba(215, 217, 221, 0.50));
+}
+
+/* hover */
+.nav:hover {
+    color: white;
+}
+
+.facebook:hover {
+    transform: translateY(10px);
+
+}
+
+/* gap */
+.gap-51 {
+    gap: 51px;
+}
+
+.gap-66 {
+    gap: 66px;
+}
+
+.gap-70 {
+    gap: 70px;
+}
+
+/* max-width */
+.w-310 {
+    width: 310px;
+}
+
+.mn-wi-30 {
+    min-width: 30px;
+}
+
+.mx-wi-114 {
+    max-width: 114px;
+}
+
+.mx-wi-163 {
+    max-width: 165px;
+}
+
+.mx-wi-511 {
+    max-width: 511px;
+}
+
+.mx-wi-560 {
+    max-width: 560px;
+}
+
+.mx-wi-584 {
+    max-width: 584px;
+}
+
+.mx-wi-590 {
+    max-width: 590px;
+}
+
+.mx-wi-639 {
+    max-width: 639px;
+}
+
+.mx-wi-770 {
+    max-width: 770px;
+}
+
+.mx-wi-843 {
+    max-width: 843px;
+}
+
+/* padding */
+.pt-60 {
+    padding-top: 45px;
+}
+
+.py-193-85 {
+    padding-block: 193px 85px;
+}
+
+.py-35-60 {
+    padding-block: 35px 80px;
+}
+
+.py-80-140 {
+    padding-block: 80px 140px;
+}
+
+.py-80 {
+    padding-block: 80px;
+}
+
+.pb-32 {
+    padding-bottom: 32px;
+}
+
+.pb-59 {
+    padding-bottom: 59px;
+}
+
+.pb-72 {
+    padding-bottom: 72px;
+}
+
+.p-25-39-128-20 {
+    padding: 25px 39px 128px 20px;
+}
+
+.p-25-16-128-20 {
+    padding: 25px 16px 128px 20px;
+}
+
+/* margin */
+.mx-150-30 {
+    margin-inline: 150px 30px;
+}
+
+.mt-32 {
+    margin-top: 32px;
+}
+
+.mt-40 {
+    margin-top: 40px;
+}
+
+.mt-50 {
+    margin-top: 50px;
+}
+
+.mt-59 {
+    margin-top: 59px;
+}
+
+.mt-79 {
+    margin-top: 79px;
+}
+
+.-mt-265 {
+    margin-top: -265px;
+}

@@ -1,0 +1,171 @@
+@media (max-width:1400px) {}
+
+@media (max-width:1240px) {
+    .containor {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 40px;
+    }
+
+    .containor-2 {
+        max-width: 1440px;
+        margin: 0px 0px;
+        padding: 0px 70px;
+    }
+
+    .gap-66 {
+        gap: 30px;
+    }
+
+    .mx-150-30 {
+        margin-inline: 30px 0px;
+    }
+}
+
+@media (max-width:1040px) {
+    .containor {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 35px;
+    }
+
+    .containor-2 {
+        max-width: 1440px;
+        margin: 0px 0px;
+        padding: 0px 60px;
+    }
+}
+
+@media (max-width:992px) {
+    .containor {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 30px;
+    }
+
+    .containor-2 {
+        max-width: 1440px;
+        margin: 0px 0px;
+        padding: 0px 50px;
+    }
+
+    .gap-66 {
+        gap: 15px;
+    }
+
+    .our .mx-wi-163 {
+        max-width: 100%;
+    }
+
+    .gap-70 {
+        gap: 32px;
+    }
+
+    .mt-0 .mt-59 {
+        margin-top: 0px;
+    }
+
+    .mx-wi-511 {
+        max-width: 250px;
+    }
+
+    .mx-wi-163 {
+        max-width: 116px;
+    }
+
+}
+
+@media (max-width:768px) {
+    .containor {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 25px;
+    }
+
+    .containor-2 {
+        max-width: 1440px;
+        margin: 0px 0px;
+        padding: 0px 25px;
+    }
+
+    .our .gap-51 {
+        gap: 13px;
+    }
+
+    .py-80 {
+        padding-block: 60px;
+    }
+
+    .w-310 {
+        width: 260px;
+    }
+
+    .mt-79 {
+        margin-top: 60px;
+    }
+
+    .py-80-140 {
+        padding-block: 60px 90px;
+    }
+
+    .mx-wi-584 {
+        max-width: 288px;
+    }
+
+    .mr-0 {
+        margin-right: 0px;
+    }
+
+    .mt-32 {
+        margin-top: 20px;
+    }
+
+    .pb-32 {
+        padding-bottom: 20px;
+    }
+
+    .pb-59 {
+        padding-bottom: 111px;
+    }
+
+
+}
+
+@media (max-width:640px) {
+    .-mt-265 {
+        margin-top: -230px;
+    }
+}
+
+@media (max-width:540px) {
+    .containor {
+        max-width: 1440px;
+        margin: 0px auto;
+        padding: 0px 32px;
+    }
+
+    .containor-2 {
+        max-width: 1440px;
+        margin: 0px 0px;
+        padding: 0px 32px;
+    }
+
+    .w-310 {
+        width: 218px;
+    }
+
+    .h-419 {
+        height: 339px;
+    }
+
+    .-mt-265 {
+        margin-top: -190px;
+    }
+
+}
+
+@media (max-width:400px) {
+    .-mt-265 {
+        margin-top: -138px;
+    }
+}

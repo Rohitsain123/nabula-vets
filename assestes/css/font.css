@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'avantt-bold';
+    src: url(./../font.css/avantt/avantt-font-family-1737758620-0/AvanttTRIALVF-BF6721a86b223dc.ttf);
+}
+
+.avantt {
+    font-family: 'avantt-bold';
+}
+
+.roboto {
+    font-family: "Roboto Mono", serif;
+}
