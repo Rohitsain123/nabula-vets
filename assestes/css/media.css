@@ -280,6 +280,10 @@
         padding-block: 60px 90px;
     }
 
+    .servies .py-80-140 {
+        padding-block: 60px 60px;
+    }
+
     .mx-wi-584 {
         max-width: 288px;
     }
@@ -342,6 +346,10 @@
 
     .-mt-65 {
         margin-top: -65px;
+    }
+
+    .footer .mx-wi-479 {
+        max-width: 288px;
     }
 }
 
