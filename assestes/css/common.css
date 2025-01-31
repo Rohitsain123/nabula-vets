@@ -11,84 +11,83 @@
     --fs-70: 70px;
     --fs-138: 138px;
 
-    /* color */
-    --cl-d7d9dd: #d7d9dd;
+    /* colotext-gray: #d7d9dd;
     --cl-494336: #494336;
 }
 
 /* font-size */
-.fs-14 {
-    font-size: var(--fs-14);
-}
-
-.fs-18 {
-    font-size: var(--fs-18);
-}
-
-.fs-20 {
-    font-size: var(--fs-20);
-}
-
-.fs-22 {
-    font-size: var(--fs-22);
-}
-
-.fs-24 {
-    font-size: var(--fs-24);
-}
-
-.fs-28 {
-    font-size: var(--fs-28);
-}
-
-.fs-36 {
-    font-size: var(--fs-36);
-}
-
-.fs-48 {
-    font-size: var(--fs-48);
-}
-
-.fs-70 {
-    font-size: var(--fs-70);
-}
-
-.fs-138 {
-    font-size: var(--fs-138);
-}
-
-/* color */
-.cl-d7d9dd {
-    color: #d7d9dd !important;
-}
-
-
-.cl-494336 {
-    color: var(--cl-494336);
-}
-
-@media (max-width:1240px) {
-    :root {
-        --fs-70: 50px;
+    .fs-14 {
+        font-size: var(--fs-14);
     }
-}
 
-@media (max-width:992px) {
-    :root {
-        /* font size */
-        --fs-20: 16px;
-        --fs-22: 14px;
-        --fs-36: 24px;
-        --fs-48: 30px;
-        --fs-18: 14px;
-        --fs-70: 40px;
-        --fs-24: 16px;
+    .fs-18 {
+        font-size: var(--fs-18);
     }
-}
 
-@media (max-width:540px) {
-    :root {
-        --fs-48: 24px;
-        --fs-70: 32px;
+    .fs-20 {
+        font-size: var(--fs-20);
     }
-}
+
+    .fs-22 {
+        font-size: var(--fs-22);
+    }
+
+    .fs-24 {
+        font-size: var(--fs-24);
+    }
+
+    .fs-28 {
+        font-size: var(--fs-28);
+    }
+
+    .fs-36 {
+        font-size: var(--fs-36);
+    }
+
+    .fs-48 {
+        font-size: var(--fs-48);
+    }
+
+    .fs-70 {
+        font-size: var(--fs-70);
+    }
+
+    .fs-138 {
+        font-size: var(--fs-138);
+    }
+
+    /* color */
+    .text-gray {
+        color: #d7d9dd !important;
+    }
+
+
+    .cl-494336 {
+        color: var(--cl-494336);
+    }
+
+    @media (max-width:1240px) {
+        :root {
+            --fs-70: 50px;
+        }
+    }
+
+    @media (max-width:992px) {
+        :root {
+            /* font size */
+            --fs-20: 16px;
+            --fs-22: 14px;
+            --fs-36: 24px;
+            --fs-48: 30px;
+            --fs-18: 14px;
+            --fs-70: 40px;
+            --fs-24: 16px;
+        }
+    }
+
+    @media (max-width:540px) {
+        :root {
+            --fs-48: 24px;
+            --fs-70: 32px;
+        }
+    }
