@@ -1,4 +1,28 @@
-@media (max-width:1400px) {}
+@media (min-width:1000px) {
+    .fourth .px-180 {
+        padding-inline: 100px;
+    }
+
+
+}
+
+@media (max-width:1400px) {
+    .fourth .mn-wi-600 {
+        min-width: 400px;
+    }
+
+    .px-70 {
+        padding-inline: 40px;
+    }
+
+    .px-180-80 {
+        padding-inline: 100px 32px;
+    }
+
+    .px-180-70 {
+        padding-inline: 100px 32px;
+    }
+}
 
 @media (max-width:1240px) {
     .containor {
@@ -20,6 +44,26 @@
     .mx-150-30 {
         margin-inline: 30px 0px;
     }
+
+    .ml-180 {
+        margin-left: 80px;
+    }
+
+    .px-115-33 {
+        padding-inline: 50px 33px;
+    }
+
+    .px-180 {
+        padding-inline: 80px;
+    }
+
+    .px-70 {
+        padding-inline: 40px;
+    }
+
+    .gap-105 {
+        gap: 45px;
+    }
 }
 
 @media (max-width:1040px) {
@@ -34,6 +78,23 @@
         margin: 0px 0px;
         padding: 0px 60px;
     }
+
+    .px-180 {
+        padding-inline: 50px;
+    }
+
+    .px-180-80 {
+        padding-inline: 50px 32px;
+    }
+
+    .px-180-70 {
+        padding-inline: 50px 32px;
+    }
+
+    .fourth .p-34-21-57-48 {
+        padding: 29px 15px 57px 20px;
+    }
+
 }
 
 @media (max-width:992px) {
@@ -73,6 +134,117 @@
         max-width: 116px;
     }
 
+    .ml-180 {
+        margin-left: 32px;
+    }
+
+    .pt-80 {
+        padding-top: 33px;
+    }
+
+    .mr-32 {
+        margin-right: 32px;
+    }
+
+    .px-115-33 {
+        padding-inline: 32px 20px;
+    }
+
+    .h-420 {
+        height: 296px;
+    }
+
+    .mx-wi-420 {
+        max-width: 296px;
+    }
+
+    .mx-wi-480 {
+        max-width: none;
+    }
+
+    .px-72-50 {
+        padding-inline: 32px 20px;
+    }
+
+    .mn-wi-620 {
+        max-width: none;
+    }
+
+    .mx-wi-820 {
+        max-width: none;
+    }
+
+    .second .mx-wi-374 {
+        max-width: 200px;
+    }
+
+    .second .-mt-30 {
+        margin-top: -25px;
+    }
+
+    .second .mt-60 {
+        margin-top: 60px;
+    }
+
+    .second .mt-59 {
+        margin-top: 40px;
+    }
+
+    .care .pb-60 {
+        padding-bottom: 40px;
+    }
+
+    .fourth .py-30-60 {
+        padding-block: 30px 60px;
+    }
+
+    .mx-wi-528 {
+        max-width: 211px;
+    }
+
+    .fourth .mn-wi-600 {
+        min-width: 300px;
+    }
+
+    .mt-3 .h-471 {
+        height: 399px;
+    }
+
+    .px-70 {
+        padding-inline: 32px;
+    }
+
+    .px-50 {
+        padding-inline: 32px;
+    }
+
+    .h-465 {
+        height: 420px;
+    }
+
+    .pb-80 {
+        padding-bottom: 80px;
+    }
+
+    .mx-wi-231 {
+        max-width: 160px;
+    }
+
+    .mx-wi-114 {
+        max-width: 80px;
+    }
+
+    .mx-wi-215 {
+        max-width: 170px;
+    }
+
+    .px-180-70 {
+        padding-inline: 32px 32px;
+    }
+
+    .py-140-82 {
+        padding-block: 0px 51px;
+    }
 }
 
 @media (max-width:768px) {
@@ -128,12 +300,70 @@
         padding-bottom: 111px;
     }
 
+    .py-30-60 {
+        padding-block: 30px 60px;
+    }
 
+    .px-70 {
+        padding-inline: 32px;
+    }
+
+    .third .gap-105 {
+        gap: 0px;
+    }
+
+    .third .-mt-30 {
+        margin-top: -60px;
+    }
+
+    .px-180 {
+        padding-inline: 32px;
+    }
+
+    .py-80-80 {
+        padding-block: 80px 160px;
+    }
+
+    .px-180-80 {
+        padding-inline: 32px 32px;
+    }
+
+    .dog .mx-wi-584 {
+        max-width: none;
+    }
+
+    .px-180-70 {
+        padding-inline: 0px 0px;
+    }
+
+    .map .py-80-140 {
+        padding-block: 0px 100px;
+    }
+
+    .-mt-65 {
+        margin-top: -65px;
+    }
 }
 
 @media (max-width:640px) {
     .-mt-265 {
         margin-top: -230px;
+    }
+
+    .fourth .mn-wi-600 {
+        min-width: 296px;
+    }
+
+    .mx-wi-207 {
+        max-width: 100px;
+    }
+
+    .dog .px-115-33 {
+        padding-inline: 32px 0px;
+    }
+
+    .dog .mt-79 {
+        margin-top: 40px;
     }
 }
 
@@ -162,6 +392,13 @@
         margin-top: -190px;
     }
 
+    .mx-wi-250 {
+        max-width: 250px;
+    }
+
+    .px-180 {
+        padding-inline: 32px;
+    }
 }
 
 @media (max-width:400px) {

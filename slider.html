@@ -1,40 +1,159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <title>Bootstrap Example</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Example</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assestes/css/style.css">
+    <link rel="stylesheet" href="/assestes/css/common.css">
+    <link rel="stylesheet" href="./assestes/css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <style>
+        /* General styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+        }
+
+        .accordion-container {
+            width: 80%;
+            margin: auto;
+        }
+
+        /* Accordion item styles */
+        .accordion-item {
+            margin-bottom: 20px;
+            border-bottom: 2px solid black;
+            padding-bottom: 40px;
+        }
+
+        .accordion-header {
+            padding-top: 50px;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .accordion-body {
+            padding-top: 30px;
+            display: none;
+            margin: 0px;
+        }
+
+        /* Rotate the icon when the accordion is active */
+        .accordion-header svg {
+            transition: transform 0.4s ease;
+        }
+
+        .accordion-header.active svg {
+            transform: rotate(45deg);
+        }
+    </style>
 </head>
 
-<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+<body>
 
-    <!-- Example Code -->
+    <div class="accordion-container">
+        <!-- Accordion 1 -->
+        <div class="accordion-item  ">
+            <div class="accordion-header  " onclick="toggleAccordion(this)">
+                Immediate Access to Care
+                <!-- SVG Icon (Plus) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <line x1="0.0332031" y1="15.9197" x2="30.0332" y2="15.9197" stroke="url(#paint0_linear_1203_5166)"
+                        stroke-width="2.5" />
+                    <line x1="15.1465" y1="30.8062" x2="15.1465" y2="0.806152" stroke="url(#paint1_linear_1203_5166)"
+                        stroke-width="2.5" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1203_5166" x1="0.0332031" y1="17.1697" x2="30.0332"
+                            y2="17.1697" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFA280" />
+                            <stop offset="1" stop-color="#8FD9D9" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1203_5166" x1="16.3965" y1="30.8062" x2="16.3965"
+                            y2="0.806152" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFA280" />
+                            <stop offset="1" stop-color="#8FD9D9" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="accordion-body">
+                We know that emergencies require swift action. At Nebula Vets, we prioritize providing prompt access to
+                emergency and urgent care services. Our facility is equipped to handle a wide range of emergencies, and
+                our experienced team is ready to address critical situations with efficiency and expertise.
+            </div>
+        </div>
 
+        <!-- Accordion 2 -->
+        <div class="accordion-item border-bottom pb-5 border-bottom border-dark">
+            <div class="accordion-header" onclick="toggleAccordion(this)">
+                <h4 class="fw-normal fs-48"> Immediate Access to Care</h4>
+                <!-- SVG Icon (Plus) -->
+                <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31" fill="none">
+                    <line x1="0.0332031" y1="15.9197" x2="30.0332" y2="15.9197" stroke="url(#paint0_linear_1203_5166)"
+                        stroke-width="2.5" />
+                    <line x1="15.1465" y1="30.8062" x2="15.1465" y2="0.806152" stroke="url(#paint1_linear_1203_5166)"
+                        stroke-width="2.5" />
+                    <defs>
+                        <linearGradient id="paint0_linear_1203_5166" x1="0.0332031" y1="17.1697" x2="30.0332"
+                            y2="17.1697" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFA280" />
+                            <stop offset="1" stop-color="#8FD9D9" />
+                        </linearGradient>
+                        <linearGradient id="paint1_linear_1203_5166" x1="16.3965" y1="30.8062" x2="16.3965"
+                            y2="0.806152" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#FFA280" />
+                            <stop offset="1" stop-color="#8FD9D9" />
+                        </linearGradient>
+                    </defs>
+                </svg>
+            </div>
+            <div class="accordion-body">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi error rerum expedita suscipit sit
+                architecto cum, quo consectetur, dolor odio aliquid sed itaque repellendus magni. Vel molestias sint
+                illum quos?
 
-    <button class="btn  d-lg-none border" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
-        aria-controls="offcanvasResponsive"><svg xmlns="http://www.w3.org/2000/svg" width="49" height="27"
-            viewBox="0 0 49 27" fill="none">
-            <path d="M0.0332031 22.5562H48.0332V26.1812H0.0332031V22.5562Z" fill="#D8DADC" />
-            <path d="M0.0332031 0.806152H48.0332V4.43115H0.0332031V0.806152Z" fill="#D8DADC" />
-            <path d="M0.0332031 11.6812H48.0332V15.3062H0.0332031V11.6812Z" fill="#D8DADC" />
-        </svg> </button>
-
-    <div class="alert alert-info d-none d-lg-block">Resize your browser to show the responsive offcanvas toggle.</div>
-
-    <div class="offcanvas-lg offcanvas-end" tabindex="-1" id="offcanvasResponsive"
-        aria-labelledby="offcanvasResponsiveLabel">
-
-        <div class="offcanvas-body">
-            <p class="mb-0">This is content within an <code>.offcanvas-lg</code>.</p>
+            </div>
         </div>
     </div>
 
+    <script>
+        // Toggle function to open and close the accordion
+        function toggleAccordion(header) {
+            // Close all other open accordions
+            const allHeaders = document.querySelectorAll('.accordion-header');
+            allHeaders.forEach(function (h) {
+                if (h !== header) {
+                    h.classList.remove('active');
+                    h.nextElementSibling.style.display = 'none';
+                }
+            });
 
-    <!-- End Example Code -->
+            // Toggle the clicked accordion
+            header.classList.toggle('active');
+            const body = header.nextElementSibling;
+            if (header.classList.contains('active')) {
+                body.style.display = 'block';
+            } else {
+                body.style.display = 'none';
+            }
+        }
+    </script>
+    <!-- bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
