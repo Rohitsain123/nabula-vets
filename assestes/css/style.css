@@ -120,6 +120,11 @@
     background: var(--Grey-2, rgba(215, 217, 221, 0.50));
 }
 
+.swiper-pagination-bullet-active {
+    background-color: #494336;
+}
+
+
 /* hover */
 .nav:hover {
     color: white;
@@ -168,6 +173,9 @@
     min-width: 30px;
 }
 
+.mx-wi-90 {
+    max-width: 90px;
+}
 
 .mx-wi-109 {
     max-width: 89px;
