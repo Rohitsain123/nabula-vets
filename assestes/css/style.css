@@ -87,7 +87,7 @@
 }
 
 .accordion-header.active svg {
-    transform: rotate(45deg);
+    transform: rotate(225deg);
 }
 
 
