@@ -12,6 +12,8 @@
     --fs-138: 138px;
     /* color */
     --cl-494336: #494336;
+    --cl-grey: rgba(217, 217, 217, 0.50);
+
 }
 
 /* font-size */
@@ -64,9 +66,10 @@ a {
     color: #d7d9dd !important;
 }
 
-.text-black {
-    color: #494336 !important;
+.cl-grey {
+    color: rgba(217, 217, 217, 0.50);
 }
+
 
 .cl-494336 {
     color: var(--cl-494336);
