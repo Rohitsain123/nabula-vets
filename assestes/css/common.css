@@ -64,6 +64,9 @@ a {
     color: #d7d9dd !important;
 }
 
+.text-black {
+    color: #494336 !important;
+}
 
 .cl-494336 {
     color: var(--cl-494336);
