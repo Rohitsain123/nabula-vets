@@ -68,8 +68,8 @@
 .accordion-body {
     padding-top: 30px;
     display: none;
-    font-size: 14px;
-    color: #494336;
+    font-size: 10px;
+    color: red;
     max-width: 1080px;
 }
 
