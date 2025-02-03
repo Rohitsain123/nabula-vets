@@ -265,6 +265,14 @@
     .p-25-16-128-20 {
         padding: 14px 14px 80px 14px;
     }
+
+    .dog .py-80 {
+        padding-block: 35px;
+    }
+
+    .dog .swiper-pagination-bullet-active {
+        background: white !important;
+    }
 }
 
 
