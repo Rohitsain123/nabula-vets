@@ -257,7 +257,16 @@
     .wi-60 {
         width: 100%;
     }
+
+    .p-25-39-128-20 {
+        padding: 14px 14px 80px 14px;
+    }
+
+    .p-25-16-128-20 {
+        padding: 14px 14px 80px 14px;
+    }
 }
+
 
 @media (max-width:768px) {
     .containor {
