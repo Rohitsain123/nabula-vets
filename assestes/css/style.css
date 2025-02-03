@@ -17,11 +17,7 @@
     padding: 0px 50px;
 }
 
-.containor-2 {
-    max-width: 1440px;
-    margin: 0px 0px;
-    padding: 0px 180px;
-}
+
 
 .trans-03 {
     transition: all 0.3s ease-in-out;
