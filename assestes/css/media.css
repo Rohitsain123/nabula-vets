@@ -92,7 +92,7 @@
     }
 
     .fourth .p-34-21-57-48 {
-        padding: 29px 15px 57px 20px;
+        padding: 29px 15px 30px 20px;
     }
 
 }
@@ -273,6 +273,11 @@
     .dog .swiper-pagination-bullet-active {
         background: white !important;
     }
+
+    .py-87-28 {
+        padding-block: 0px;
+    }
+
 }
 
 
@@ -379,6 +384,14 @@
 
     .footer .mx-wi-479 {
         max-width: 288px;
+    }
+
+    .h-333 .h-471 {
+        height: 333px;
+    }
+
+    .-mt-135 {
+        margin-top: -100px;
     }
 }
 
