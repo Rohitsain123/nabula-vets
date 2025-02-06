@@ -396,6 +396,10 @@
     .-mt-135 {
         margin-top: -100px;
     }
+
+    .mx-wi-639 {
+        max-width: 225px;
+    }
 }
 
 @media (max-width:640px) {
