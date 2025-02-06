@@ -90,13 +90,36 @@
     transform: rotate(225deg);
 }
 
+.h-5 {
+    min-height: 6px;
+}
+
+.h-8 {
+    min-height: 8px;
+}
+
+.w-5 {
+    min-width: 6px;
+}
+
+.w-8 {
+    min-width: 8px;
+}
 
 .h-419 {
     height: 419px;
 }
 
+.br-100 {
+    border-radius: 100%;
+}
+
 .h-420 {
     height: 420px;
+}
+
+.h-425 {
+    height: 470px;
 }
 
 .h-465 {
@@ -105,6 +128,14 @@
 
 .h-471 {
     height: 471px;
+}
+
+.r-30 {
+    right: 30px;
+}
+
+.b-100 {
+    bottom: 30px;
 }
 
 /* color */
@@ -132,7 +163,10 @@
 
 .facebook:hover {
     transform: translateY(10px);
+}
 
+.arrow:hover svg path {
+    transform: translateX(10px);
 }
 
 /* gap */
@@ -203,6 +237,10 @@
 
 .mx-wi-374 {
     max-width: 374px;
+}
+
+.mx-wi-368 {
+    max-width: 368px;
 }
 
 .mx-wi-420 {
@@ -380,6 +418,10 @@
 
 .p-34-21-57-48 {
     padding: 34px 21px 57px 48px;
+}
+
+.p-44-143-23-42 {
+    padding: 44px 143px 23px 48px;
 }
 
 /* margin */

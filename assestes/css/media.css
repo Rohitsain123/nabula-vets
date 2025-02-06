@@ -278,6 +278,9 @@
         padding-block: 0px;
     }
 
+    .h-425 {
+        height: 420px;
+    }
 }
 
 
@@ -450,6 +453,9 @@
         padding-inline: 32px;
     }
 
+    .p-44-143-23-42 {
+        padding: 29px 20px 119px 20px;
+    }
 
 }
 
