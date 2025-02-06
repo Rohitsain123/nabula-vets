@@ -400,6 +400,10 @@
     .mx-wi-639 {
         max-width: 225px;
     }
+
+    .-mt-90 {
+        margin-top: -140px;
+    }
 }
 
 @media (max-width:640px) {
