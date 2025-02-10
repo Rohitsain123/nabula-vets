@@ -281,6 +281,10 @@
     .h-425 {
         height: 420px;
     }
+
+    .mx-wi-639 {
+        max-width: 225px;
+    }
 }
 
 
