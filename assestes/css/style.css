@@ -155,6 +155,9 @@
     background: #494336 !important;
 }
 
+.btn-close {
+    color: white;
+}
 
 /* hover */
 .nav:hover {
