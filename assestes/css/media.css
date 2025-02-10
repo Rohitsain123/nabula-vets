@@ -397,9 +397,7 @@
         margin-top: -100px;
     }
 
-    .mx-wi-639 {
-        max-width: 225px;
-    }
+
 
     .-mt-90 {
         margin-top: -90px;
@@ -420,7 +418,7 @@
     }
 
     .mx-wi-207 {
-        max-width: 100px;
+        max-width: 90px;
     }
 
     .dog .px-115-33 {
@@ -429,6 +427,10 @@
 
     .dog .mt-79 {
         margin-top: 40px;
+    }
+
+    .mx-wi-450 {
+        max-width: 197px;
     }
 }
 

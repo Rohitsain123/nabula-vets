@@ -138,6 +138,10 @@
     bottom: 30px;
 }
 
+.t-50 {
+    top: 50px;
+}
+
 /* color */
 .bg-494336 {
     background-color: #494336;
@@ -249,6 +253,10 @@
 
 .mx-wi-420 {
     max-width: 420px;
+}
+
+.mx-wi-450 {
+    max-width: 450px;
 }
 
 .mx-wi-479 {
