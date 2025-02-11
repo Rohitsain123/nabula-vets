@@ -285,6 +285,10 @@
     .mx-wi-639 {
         max-width: 225px;
     }
+
+    .py-45-80 {
+        padding-block: 28px 60px;
+    }
 }
 
 
