@@ -17,6 +17,11 @@
     padding: 0px 50px;
 }
 
+.containor2 {
+    max-width: 1140px;
+    margin: 0px auto;
+    padding: 0px 32px;
+}
 
 
 .trans-03 {
@@ -228,7 +233,7 @@
 }
 
 .mx-wi-163 {
-    max-width: 165px;
+    max-width: 135px;
 }
 
 .mx-wi-170 {
