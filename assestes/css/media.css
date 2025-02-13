@@ -64,6 +64,10 @@
     .gap-105 {
         gap: 45px;
     }
+
+    .urgent .mx-wi-639 {
+        max-width: 400px;
+    }
 }
 
 @media (max-width:1040px) {
@@ -289,6 +293,14 @@
     .py-45-80 {
         padding-block: 28px 60px;
     }
+
+    .py-140-60 {
+        padding-block: 176px 60px;
+    }
+
+    .urgent .t-50 {
+        top: 32px;
+    }
 }
 
 
@@ -405,7 +417,9 @@
         margin-top: -100px;
     }
 
-
+    .urgent .mx-wi-639 {
+        max-width: 240px;
+    }
 
     .-mt-90 {
         margin-top: -90px;
