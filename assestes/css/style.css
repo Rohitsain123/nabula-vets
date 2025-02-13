@@ -143,6 +143,10 @@
     bottom: 30px;
 }
 
+.b-50 {
+    bottom: 50px;
+}
+
 .t-50 {
     top: 50px;
 }
@@ -170,17 +174,23 @@
 
 /* hover */
 .nav:hover {
+    background: linear-gradient(180deg, #FFA280 0%, #8FD9D9 100%);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.book:hover {
     color: white;
+    box-shadow: #7d7d7d 10px 10px 20px 0px;
 }
 
 .facebook:hover {
     transform: translateY(10px);
 }
 
-.arrow:hover svg path {
-    transform: translateX(10px);
-    transition: all 0.4s ease-in-out;
-}
+
 
 /* gap */
 .gap-51 {
@@ -407,6 +417,10 @@
 
 .py-140-82 {
     padding-block: 140px 82px;
+}
+
+.py-140-117 {
+    padding-block: 140px 117px;
 }
 
 .py-80-80 {

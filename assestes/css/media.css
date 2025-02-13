@@ -301,6 +301,18 @@
     .urgent .t-50 {
         top: 32px;
     }
+
+    .py-140-117 {
+        padding-block: 176px 60px;
+    }
+
+    .tele .t-50 {
+        top: 18px;
+    }
+
+    .dia .t-50 {
+        top: 9px;
+    }
 }
 
 
