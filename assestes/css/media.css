@@ -313,6 +313,57 @@
     .dia .t-50 {
         top: 9px;
     }
+
+    .pharmacy .t-50 {
+        top: 15px;
+        max-width: 264px;
+    }
+
+    .mx-wi-447 {
+        max-width: 225px;
+    }
+
+    .surgery .t-90 {
+        top: 25px;
+    }
+
+    .spay .t-90 {
+        top: 16px;
+    }
+
+    .spay .mx-wi-447 {
+        max-width: 213px;
+    }
+
+    .travel .t-90 {
+        top: 21px;
+    }
+
+    .skin .t-50 {
+        top: 5px;
+    }
+
+    .micro .t-119 {
+        top: 37px;
+        max-width: 309px;
+    }
+
+    .laser .mx-wi-420 {
+        max-width: 200px;
+    }
+
+    .laser .t-50 {
+        top: -6px;
+    }
+
+    .hospice .mx-wi-450 {
+        max-width: 196px;
+        top: 32px;
+    }
+
+    .join .t-147 {
+        top: 10px;
+    }
 }
 
 

@@ -23,9 +23,8 @@
     padding: 0px 32px;
 }
 
-
 .trans-03 {
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out !important;
 }
 
 .book-bg {
@@ -86,7 +85,6 @@
     max-width: 1080px;
 }
 
-/* Rotate the icon when the accordion is active */
 .accordion-header svg {
     transition: transform 0.4s ease;
 }
@@ -151,6 +149,18 @@
     top: 50px;
 }
 
+.t-90 {
+    top: 90px;
+}
+
+.t-119 {
+    top: 119px;
+}
+
+.t-147 {
+    top: 147px;
+}
+
 /* color */
 .bg-494336 {
     background-color: #494336;
@@ -168,6 +178,10 @@
     background: #494336 !important;
 }
 
+.swiper-pagination-bullet-active {
+    background: #7d7d7d !important;
+}
+
 .btn-close {
     color: white;
 }
@@ -183,7 +197,7 @@
 
 .book:hover {
     color: white;
-    box-shadow: #7d7d7d 10px 10px 20px 0px;
+    box-shadow: #686666 10px 10px 20px 0px;
 }
 
 .facebook:hover {
@@ -274,6 +288,10 @@
     max-width: 430px;
 }
 
+.mx-wi-447 {
+    max-width: 447px;
+}
+
 .mx-wi-479 {
     max-width: 480px;
 }
@@ -330,6 +348,10 @@
     max-width: 640px;
 }
 
+.mx-wi-664 {
+    max-width: 664px;
+}
+
 .mx-wi-700 {
     max-width: 700px;
 }
@@ -344,6 +366,10 @@
 
 .mx-wi-843 {
     max-width: 843px;
+}
+
+.mx-wi-868 {
+    max-width: 868px;
 }
 
 .mx-wi-1080 {
