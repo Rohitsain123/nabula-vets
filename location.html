@@ -18,6 +18,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
 </head>
+<style>
+    .mapouter {
+        position: relative;
+        text-align: right;
+        width: 100%;
+        height: 570px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 100%;
+        height: 570px;
+    }
+
+    .gmap_iframe {
+        height: 570px !important;
+    }
+</style>
 
 <body>
     <!-- navbar -->
@@ -80,13 +99,15 @@
         </div>
     </nav>
     <!-- hero -->
-    <section>
-        <div class="bg-494336">
-            <div
-                class=" ml-180 d-flex gap-5 justify-content-lg-between  align-items-center flex-lg-nowrap flex-wrap-reverse py-30-60 py-4 justify-content-end">
-                <div class="text-gray mx-wi-700 -mt-65 mx-auto pe-3">
-                    <h1 class="fs-70 fw-normal d-md-block d-none  mx-wi-700"> Our Washington DC Practice</h1>
-                    <h1 class="fs-70 fw-normal d-md-none d-block mx-wi-700"> Washington DC </h1>
+    <section class="location">
+        <div class="bg-494336 position-relative">
+            <div class="position-absolute end-0 t-105 mx-wi-639">
+                <img class="w-100" src="./assestes/img/png/map.png" alt="map">
+            </div>
+            <div class="containor2">
+                <div class="  mx-wi-700 py-140-60">
+                    <h1 class="fs-70 fw-normal d-md-block d-none  mx-wi-700 text-gray"> Our Washington DC Practice</h1>
+                    <h1 class="fs-70 fw-normal d-md-none d-block mx-wi-700 text-gray"> Washington DC </h1>
                     <p class="fs-20 lh-130 text-gray m-0 mt-lg-4 mt-sm-0 mt-4">We take great pride in our
                         state-of-the-art, AAHA-accredited facilities that are meticulously designed to provide a
                         stress-free experience for our patients and human clients alike. Equipped with modern technology
@@ -95,9 +116,7 @@
                         href="#">BOOK
                         NOW</a>
                 </div>
-                <div class="mx-wi-639 ">
-                    <img class="w-100" src="./assestes/img/png/map.png" alt="map">
-                </div>
+
             </div>
         </div>
     </section>
@@ -121,8 +140,12 @@
                         <p class="fs-24 fw-normal cl-494336 mt-4 roboto m-0">Phone: (212) 123-4567</p>
                         <p class="fs-24 fw-normal cl-494336 roboto m-0">hello@nebulavets.com</p>
                     </div>
-                    <div class="mx-wi-770 ">
-                        <img class="w-100" src="./assestes/img/png/locatioon.png" alt="location">
+                    <div class="mapouter">
+                        <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                                marginheight="0" marginwidth="0"
+                                src="https://maps.google.com/maps?width=782&amp;height=570&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                                href="https://sprunkin.com/">Sprunki</a></div>
+
                     </div>
                 </div>
             </div>
@@ -132,11 +155,13 @@
     <footer class="dog">
         <div class="bg-494336 px-115-33">
             <div class="d-flex justify-content-between gap-3 align-items-center flex-wrap">
-                <div class="pt-60">
-                    <h5 class="fs-48 text-gray fw-normal">Come visit us!</h5>
-                    <a class="fs-18 cl-494336 text-decoration-none font-medium book d-inline-block trans-03 book-bg py-lg-3 py-2 px-lg-4 px-3 roboto mx-wi-163 mt-79 "
-                        href="#">BOOK
-                        NOW</a>
+                <div>
+                    <div class="pt-60">
+                        <h5 class="fs-48 text-gray fw-normal">Come visit us!</h5>
+                        <a class="fs-18 cl-494336 text-decoration-none font-medium book d-inline-block trans-03 book-bg py-lg-3 py-2 px-lg-4 px-3 roboto mx-wi-163 mt-79 "
+                            href="#">BOOK
+                            NOW</a>
+                    </div>
                 </div>
                 <div>
                     <img class="w-100" src="./assestes/img/png/dog.png" alt="dog">
@@ -145,12 +170,12 @@
         </div>
         <div class="bg-494336  border-top border-light">
             <div class="containor">
-                <div class="row pb-60">
+                <div class="row pb-60 justify-content-between">
                     <div class="col-md-4 col-12 ">
                         <p class="fs-24 text-gray mt-59 roboto">Stay in touch:</p>
                         <form action="">
                             <input type="text" placeholder="Email"
-                                class="bg-494336 border-light px-2 text-gray py-1 mt-3 w-100 mx-wi-368">
+                                class="bg-494336 border-light px-2 text-gray py-1 mt-3 w-100  mx-wi-368">
                         </form>
                         <div class="d-flex mt-4 gap-3">
                             <a class="facebook trans-03" href="https://www.facebook.com/" target="_blank"><svg
@@ -197,7 +222,7 @@
                                 </svg></a>
                         </div>
                     </div>
-                    <div class="d-flex mt-59 justify-content-between col-md-8 col-12 gap-4 row">
+                    <div class="d-flex mt-59 justify-content-between col-xl-7 col-lg-8 col-12 gap-4 row">
                         <ul class="list-unstyled m-0 col-sm-3 col-12">
                             <li>
                                 <p class="fs-24 text-gray roboto m-0">Services</p>

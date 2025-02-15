@@ -68,6 +68,10 @@
     .urgent .mx-wi-639 {
         max-width: 400px;
     }
+
+    .location .mx-wi-639 {
+        max-width: 250px;
+    }
 }
 
 @media (max-width:1040px) {
@@ -98,6 +102,7 @@
     .fourth .p-34-21-57-48 {
         padding: 29px 15px 30px 20px;
     }
+
 
 }
 
@@ -363,6 +368,14 @@
 
     .join .t-147 {
         top: 10px;
+    }
+
+    .l-100 {
+        left: 80px;
+    }
+
+    .location .t-105 {
+        top: 12px;
     }
 }
 

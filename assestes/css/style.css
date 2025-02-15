@@ -153,12 +153,20 @@
     top: 90px;
 }
 
+.t-105 {
+    top: 105px;
+}
+
 .t-119 {
     top: 119px;
 }
 
 .t-147 {
     top: 147px;
+}
+
+.l-100 {
+    left: 150px;
 }
 
 /* color */
@@ -270,6 +278,10 @@
 
 .mx-wi-231 {
     max-width: 220px;
+}
+
+.mx-wi-280 {
+    max-width: 280px;
 }
 
 .mx-wi-374 {
@@ -407,6 +419,10 @@
 
 .px-180-80 {
     padding-inline: 180px 80px;
+}
+
+.py-117 {
+    padding-block: 90px;
 }
 
 .px-180-70 {
